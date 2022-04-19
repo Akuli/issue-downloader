@@ -1,6 +1,4 @@
-# Based on a similar file in https://github.com/typeshed-internal/stub_uploader
-
-name: Periodic update of code snippets from issue trackers
+name: Update code snippets from issue trackers
 
 permissions:
   contents: write
@@ -32,6 +30,5 @@ jobs:
       - run: |
           if git diff --staged --exit-code; then
             git commit -m "Automatic update of code snippets"
-            run: git push
-            echo '::set-output name=CHANGED::true'
+            git push
           fi
