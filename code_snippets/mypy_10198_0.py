@@ -1,1 +1,0 @@
-from .mysub import MyName

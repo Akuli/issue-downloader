@@ -1,3 +1,0 @@
-class Cmd:
-    prompt = '> '
-    ...

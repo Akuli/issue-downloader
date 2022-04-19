@@ -1,3 +1,0 @@
-@overload
-def __get__(self, instance: "Field", owner: Type["Field"]):
-    ...

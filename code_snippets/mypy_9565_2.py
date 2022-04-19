@@ -1,1 +1,0 @@
-o: Union[B, C]

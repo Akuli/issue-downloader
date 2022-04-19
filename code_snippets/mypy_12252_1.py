@@ -1,3 +1,0 @@
-from .opnd_types import *
-class Body(BodyBase, InstrValCommon):
-    ...

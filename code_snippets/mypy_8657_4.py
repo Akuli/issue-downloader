@@ -1,1 +1,0 @@
-x: Optional[MissingLiteral] = None
