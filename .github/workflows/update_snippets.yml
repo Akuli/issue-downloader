@@ -1,0 +1,30 @@
+# Based on a similar file in https://github.com/typeshed-internal/stub_uploader
+
+name: Periodic update of code snippets from issue trackers
+
+on:
+  # Triggers the workflow every three hours starting midnight UTC.
+  schedule:
+    - cron: 0 */3 * * *
+  # If needed, allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - run: pip install requests
+      - run: python3 update.py
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - run: git add .
+      - run: |
+          if git diff --staged --exit-code; then
+            git commit -m "Automatic update of code snippets"
+            run: git push
+            echo '::set-output name=CHANGED::true'
+          fi
