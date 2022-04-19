@@ -16,7 +16,13 @@ except FileNotFoundError:
 
 
 def find_and_save_snippets(repo, issue_num, description):
-    file = Path("code_snippets") / repo.split("/")[-1] / (str(issue_num) + ".py")
+    relative_path = repo.split("/")[-1]
+    if repo == "python/mypy":
+        # This repo has many issues....
+        range_start = issue_num - (issue_num % 1000)
+        relative_path += f"/{range_start}-{range_start+999}"
+
+    file = Path("code_snippets") / relative_path / (str(issue_num) + ".py")
     file.parent.mkdir(parents=True, exist_ok=True)
 
     python_codes = []
