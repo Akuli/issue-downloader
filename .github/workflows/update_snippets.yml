@@ -28,7 +28,7 @@ jobs:
           git config user.email github-actions@github.com
       - run: git add .
       - run: |
-          if git diff --staged --exit-code; then
+          if ! git diff --staged --exit-code ':(exclude)last_updated_utc.json'; then
             git commit -m "Automatic update of code snippets"
             git push
           fi
