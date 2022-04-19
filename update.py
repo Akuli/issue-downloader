@@ -49,7 +49,7 @@ def find_and_save_snippets(repo, issue_num, description):
             print(f"    Deleted {filename}")
 
 
-for repo in ["python/mypy", "python/typeshed"]:
+for repo in ["python/mypy", "python/typeshed", "python/typing"]:
     page = 1
     while True:
         print(f"{repo}: Requesting page {page}...")
