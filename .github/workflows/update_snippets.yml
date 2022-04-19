@@ -2,6 +2,9 @@
 
 name: Periodic update of code snippets from issue trackers
 
+permissions:
+  contents: write
+
 on:
   # Triggers the workflow every three hours starting midnight UTC.
   schedule:
