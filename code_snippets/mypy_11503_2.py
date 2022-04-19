@@ -1,0 +1,3 @@
+from package.things import Thing
+
+def func(it: Thing) -> None: ...

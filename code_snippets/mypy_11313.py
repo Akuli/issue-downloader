@@ -1,0 +1,6 @@
+from typing import Literal
+
+literal_t = Literal['a', 'b', 'c']
+x: literal_t = 'b'
+if x == 'a' or x == 'd': ... 
+if x in ('a', 'd'): ...

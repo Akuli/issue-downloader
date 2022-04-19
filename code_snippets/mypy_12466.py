@@ -1,0 +1,19 @@
+import typing as t
+
+
+class A:
+    @t.overload
+    def pop(self) -> int: ...
+    @t.overload
+    def pop(self, d: int = ...) -> int: ...
+    
+    def pop(self, d: int = ...) -> int: ...
+
+
+class B(A):
+    @t.overload
+    def pop(self) -> int: ...
+    @t.overload
+    def pop(self, d: int) -> int: ...
+    
+    def pop(self, d: int = ...) -> int: ...

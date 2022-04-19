@@ -1,0 +1,10 @@
+# test.py
+from typing import (NamedTuple, Generic, TypeVar)
+
+S = TypeVar('S', bound='_S')
+
+class _S:
+    pass
+
+class A(NamedTuple, Generic[S]):
+    s: S

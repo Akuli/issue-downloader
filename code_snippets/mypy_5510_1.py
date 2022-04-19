@@ -1,0 +1,6 @@
+class Wrapper(Generic[T]):
+    @overload
+    def f2(self, x: int) -> int: ...
+    @overload
+    def f2(self, x: T) -> T: ...
+    def f2(self, *args, **kwargs): pass

@@ -1,0 +1,9 @@
+class P(Protocol[T_co]):
+    def meth(self) -> P[T_co]: ...
+
+class C(Generic[T]):
+    def meth(self) -> C[T]: ...
+
+def fun(arg: P[T]) -> T: ...
+x: C[int]
+reveal_type(f(x))  # I think this should be 'int'

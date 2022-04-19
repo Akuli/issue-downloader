@@ -1,0 +1,3 @@
+for y in sorted_y:
+    if y in sorted_x:  # sorted_x is an iterator
+        ...

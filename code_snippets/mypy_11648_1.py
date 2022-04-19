@@ -1,0 +1,6 @@
+class A: ...
+class B: ...
+C = A | B
+reveal_type(C) # Revealed type is "builtins.object"
+isinstance(object(), C) # error: Parameterized generics cannot be used with class or instance checks
+                        # error: Argument 2 to "isinstance" has incompatible type "object"; expected "Union[type, UnionType, Tuple[Union[type, UnionType, Tuple[Any, ...]], ...]]"

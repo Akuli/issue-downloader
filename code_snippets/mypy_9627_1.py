@@ -1,0 +1,1 @@
+MyUnion = Union[str, int]

@@ -1,0 +1,1 @@
+Baz = NewType("Baz", Foo)

@@ -1,0 +1,3 @@
+# a.pyi
+
+def foo() -> str: ...

@@ -1,0 +1,3 @@
+def foo(tp: type): ...
+
+foo(tuple[int, int])

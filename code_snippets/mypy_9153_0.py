@@ -1,0 +1,3 @@
+type_hints = typing.get_type_hints(...)  # Dict[str, Any]
+if k in type_hints:
+    ...

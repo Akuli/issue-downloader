@@ -1,0 +1,9 @@
+if sys.platform == "win32":
+    ...
+elif sys.platform == "linux" or (not TYPE_CHECKING and hasattr(select, "epoll")):
+    ...
+# At type-checking time, assume that all platforms that aren't win32 or linux are some kind of BSD
+elif TYPE_CHECKING or (not TYPE_CHECKING and hasattr(select, "kqueue")):
+    ...
+else:
+    raise NotImplementedError
