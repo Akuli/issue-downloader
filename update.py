@@ -49,6 +49,7 @@ def find_and_save_snippets(repo, issue_num, description):
             print(f"    Deleted {filename}")
 
 
+# please keep repo list in README up to date
 for repo in ["python/mypy", "python/typeshed", "python/typing"]:
     page = 1
     while True:
