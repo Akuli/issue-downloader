@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-and-commit:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
