@@ -1,5 +1,4 @@
 import ast
-import glob
 import json
 import os
 from datetime import datetime
@@ -50,14 +49,14 @@ def find_and_save_snippets(repo, issue_num, description):
             print(f"    Deleted {filename}")
 
 
-for repo in ["python/mypy"]:
+for repo in ["python/mypy", "python/typeshed"]:
     page = 1
     while True:
         print(f"{repo}: Requesting page {page}...")
         params = {
             "per_page": 100,
             "page": page,
-            "state": "open",  # TODO: change to "all" after initial download
+            "state": "open",  # "open" is rate limit friendly, "all" is better
         }
         if repo in last_updated:
             params["since"] = last_updated[repo] + "Z"

@@ -1,0 +1,10 @@
+zxcvbn
+pyspark
+psutil
+pymongo
+setuptools
+python-future
+pyzmq
+pynput
+z3
+pony
