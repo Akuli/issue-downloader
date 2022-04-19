@@ -1,14 +1,9 @@
 import ast
 import json
-import os
+from pathlib import Path
 from datetime import datetime
 
 import requests
-
-try:
-    os.mkdir("code_snippets")
-except FileExistsError:
-    pass
 
 time_at_start_of_script = datetime.utcnow()
 print("Updating code snippets starts at", time_at_start_of_script.isoformat())
@@ -21,7 +16,8 @@ except FileNotFoundError:
 
 
 def find_and_save_snippets(repo, issue_num, description):
-    filename = "code_snippets/" + repo.split("/")[-1] + "_" + str(issue_num) + ".py"
+    file = Path("code_snippets") / repo.split("/")[-1] / (str(issue_num) + ".py")
+    file.parent.mkdir(parents=True, exist_ok=True)
 
     python_codes = []
 
@@ -37,16 +33,15 @@ def find_and_save_snippets(repo, issue_num, description):
             python_codes.append(potential_code)
 
     if python_codes:
-        with open(filename, "w", encoding="utf-8") as file:
-            file.write("\n".join(python_codes))
-        print(f"    Wrote {filename}")
+        file.write_text("\n".join(python_codes))
+        print(f"    Wrote {file}")
     else:
         try:
-            os.remove(filename)
+            file.unlink()
         except FileNotFoundError:
             pass
         else:
-            print(f"    Deleted {filename}")
+            print(f"    Deleted {file}")
 
 
 # please keep repo list in README up to date
