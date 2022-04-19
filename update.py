@@ -21,23 +21,14 @@ except FileNotFoundError:
     last_updated = {}
 
 
-def delete_snippets(repo, issue_num):
-    prefix = "code_snippets/" + repo.split("/")[-1] + "_" + str(issue_num)
-    files = glob.glob(prefix + "_*.py")
-    if os.path.isfile(prefix + ".py"):
-        files.append(prefix + ".py")
-    for file in files:
-        print("    Deleting", file)
-        os.remove(file)
-
-
 def find_and_save_snippets(repo, issue_num, description):
-    prefix = "code_snippets/" + repo.split("/")[-1] + "_" + str(issue_num)
+    filename = "code_snippets/" + repo.split("/")[-1] + "_" + str(issue_num) + ".py"
+
     python_codes = []
 
     # Find everything between two ```
     for potential_code in description.split("```")[1::2]:
-        # First line is the "py3" of ```py3
+        # First line is the "python3" of ```python3
         potential_code = potential_code.split('\n', 1)[-1]
         try:
             ast.parse(potential_code)
@@ -46,13 +37,17 @@ def find_and_save_snippets(repo, issue_num, description):
         else:
             python_codes.append(potential_code)
 
-    if len(python_codes) == 1:
-        with open(prefix + ".py", "w", encoding="utf-8") as file:
-            file.write(python_codes[0])
+    if python_codes:
+        with open(filename, "w", encoding="utf-8") as file:
+            file.write("\n".join(python_codes))
+        print(f"    Wrote {filename}")
     else:
-        for index, code in enumerate(python_codes):
-            with open(f"{prefix}_{index}.py", "w", encoding="utf-8") as file:
-                file.write(code)
+        try:
+            os.remove(filename)
+        except FileNotFoundError:
+            pass
+        else:
+            print(f"    Deleted {filename}")
 
 
 for repo in ["python/mypy"]:
@@ -82,7 +77,6 @@ for repo in ["python/mypy"]:
                 # it's actually an issue, github includes PRs in results
                 print(f"  #{issue['number']}: {issue['title']}")
                 description = issue["body"].replace("\r\n", "\n")
-                delete_snippets(repo, issue["number"])
                 find_and_save_snippets(repo, issue["number"], description)
 
         page += 1

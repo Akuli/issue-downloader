@@ -65,4 +65,3 @@ def f(x: int, y: int):
 partial_jit = partial(jit)
 partial_jit(f)(0, 0) # error here
 jit(f)(0, 0) # no error here
-

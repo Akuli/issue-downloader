@@ -23,4 +23,3 @@ s = lists(Strategy(0)).map(sorted)
 #        expected "Callable[[List[int]], List[SupportsRichComparisonT]]"
 reveal_type(s)
 # Should be Strategy[list[int]], got Strategy[list[SupportsRichComparisonT`-1]]
-
