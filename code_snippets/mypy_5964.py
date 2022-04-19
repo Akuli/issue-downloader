@@ -29,4 +29,3 @@ def invalid_win_specific_function() -> bool:
 if IS_WINDOWS:
     def valid_win_specific_function() -> bool:
         return win_specific_import.some_func()
-

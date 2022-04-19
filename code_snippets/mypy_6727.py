@@ -13,4 +13,3 @@ def _command_fallback(self, *args, __action_id: int, __action_name: str, **kwarg
     return "Success."
 
 --show-traceback
-

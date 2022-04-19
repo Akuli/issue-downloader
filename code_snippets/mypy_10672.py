@@ -19,4 +19,3 @@ S = TypeVar('S', bound='_S')
 
 class A(NamedTuple, Generic[S]):
     s: S
-

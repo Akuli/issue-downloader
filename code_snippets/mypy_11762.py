@@ -40,4 +40,3 @@ class D(C):
 
     def foo(self, bar: bool | float) -> int | str:
         return super().foo(bar)
-

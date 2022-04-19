@@ -22,4 +22,3 @@ def fun(message_json) -> int:
         print(messages)
     return 2
 
-

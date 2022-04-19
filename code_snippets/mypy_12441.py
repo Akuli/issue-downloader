@@ -10,4 +10,3 @@ from a import A
 class B(A):
     c: str
 
-

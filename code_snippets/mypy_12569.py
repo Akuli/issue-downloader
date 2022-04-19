@@ -24,4 +24,3 @@ class Child2(Parent):
     @staticmethod
     def foo(x: str) -> str:  # Signature of "foo" incompatible with supertype "Parent"
         return x.lower()
-

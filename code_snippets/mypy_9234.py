@@ -16,4 +16,3 @@ class Wrapper:
 
 def main() -> Union[Wrapper, int]:
      wrap = Wrapper if random.random() < 0.5 else lambda x: x
-

@@ -38,4 +38,3 @@ for m in ["m1", "m2"]:
     print("code: ", m, " class: ", mm.get_model_class(m))
 
     # model_code: str
-

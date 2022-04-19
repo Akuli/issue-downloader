@@ -90,4 +90,3 @@ def return_fp1a_float_float() -> FP1A[float, float]:
 fp1a_float_float: FP1A[float, float] = return_fp1a_float_float()
 result: float = fp1a_float_float(1.0, 2.0)
 result += 1
-

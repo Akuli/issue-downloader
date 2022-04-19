@@ -27,4 +27,3 @@ class Sub(Base):
 	@Base.value.setter
 	def value(self, value):
 		self._value = value
-

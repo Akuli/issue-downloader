@@ -30,4 +30,3 @@ strict_equality = True
 warn_unreachable = True
 warn_unused_configs = True
 warn_unused_ignores = True
-

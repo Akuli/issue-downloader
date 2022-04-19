@@ -14,4 +14,3 @@ class MyCmd(cmd.Cmd):
     def prompt(self, value: str) -> None:
         raise NotImplementedError
     ...
-

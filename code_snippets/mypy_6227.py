@@ -19,4 +19,3 @@ def as_bytes(data: Union[bytes, Iterable[bytes]]) -> bytes:
         return b''.join(data)
     else:
         raise TypeError
-

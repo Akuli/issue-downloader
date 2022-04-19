@@ -9,4 +9,3 @@ class AppleAction(Generic[A_co], Action[A_co]): ...
 
 if isinstance(action, AppleAction):
    reveal_type(action)
-

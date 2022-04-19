@@ -95,4 +95,3 @@ class Range(Generic[T]):
         return self.end - self.start
 
 a: Range[int] = Range(1, 2)
-

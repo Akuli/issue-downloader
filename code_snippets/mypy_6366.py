@@ -27,4 +27,3 @@ def make_sound_enum(pet: PetEnum) -> str:
 #        return 'confused silence'
     else:
         assert_never(pet)
-

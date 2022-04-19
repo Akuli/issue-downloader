@@ -71,4 +71,3 @@ class ContainedClsPrime(ContainedCls):
 x = Root3[int](ContainedCls([1]), ContainedClsPrime(['definitely not an int']))
 reveal_type(x.iter_subcontained())  # builtins.list[str]
 reveal_type(x.contained2.items[0])  # builtins.int* !!!
-

@@ -3,4 +3,3 @@ test += (3,)  # error: Incompatible types in assignment (expression has type "Tu
 
 test: tuple[int, ...] = (1, 2)
 test += (3,)
-

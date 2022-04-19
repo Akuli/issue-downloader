@@ -15,4 +15,3 @@ if sys.version_info < (3, 0):
     chr = unichr
 else:
     unicode = str
-

@@ -39,4 +39,3 @@ def myabs(x: T) -> T:
 
 x = myabs(Number())
 x.square()
-

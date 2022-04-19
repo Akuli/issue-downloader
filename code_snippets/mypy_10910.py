@@ -13,4 +13,3 @@ print(Food.HAM.is_spam())
 
 def is_spam(self) -> bool:
     return self is Food.SPAM
-

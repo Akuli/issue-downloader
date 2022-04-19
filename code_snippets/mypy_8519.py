@@ -22,4 +22,3 @@ no_implicit_optional = True
 disallow_untyped_defs = True
 disallow_any_generics = True
 disallow_untyped_calls = True
-

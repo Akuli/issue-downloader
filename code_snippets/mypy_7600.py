@@ -25,4 +25,3 @@ def make_upper(i: T) -> T:
         return args
     else:
         return set(args)
-

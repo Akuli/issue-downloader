@@ -4,4 +4,3 @@ p/a.py
 p/a.py
 
 # flags: --namespace-packages
-

@@ -19,4 +19,3 @@ class Wrapper(Generic[T]):
 
 def test(x: Wrapper[MyProtocol]) -> None: pass
 test(Wrapper(SomeClass()))
-

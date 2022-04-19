@@ -32,4 +32,3 @@ class B:
 
 def test_b() -> None:
     print(B.val)
-

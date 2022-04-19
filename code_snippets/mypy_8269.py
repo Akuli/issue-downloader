@@ -13,4 +13,3 @@ class G(Protocol):
     
 def g(__arg: int, *__args: str) -> int: ...
 g_: G = g
-

@@ -16,4 +16,3 @@ def foo(bla: Optional[str] = None):
         bla = "blabla"
     bla.lower()
 
-

@@ -37,4 +37,3 @@ warn_unreachable = True
 strict_equality = True
 
 allow_redefinition = False
-

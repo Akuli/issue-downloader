@@ -17,4 +17,3 @@ def my_coro_func() -> Iterator[None]:
 
 async def my_async_func() -> None:
     await my_coro_func()
-

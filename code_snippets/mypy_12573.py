@@ -28,4 +28,3 @@ class Foo:
     @require_bar
     def get_barsplit(self) -> List[str]:
         return self.bar.split()
-

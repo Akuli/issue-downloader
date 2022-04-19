@@ -65,4 +65,3 @@ class Parent:
 class Child(Parent):
     def __call__(self, value: int) -> None:
         ...
-

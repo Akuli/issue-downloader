@@ -28,4 +28,3 @@ for entry in symbols_list:
 
         assert isinstance(entry['id'], int)
         found_id = entry['id']
-

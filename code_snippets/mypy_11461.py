@@ -35,4 +35,3 @@ def get_gravity(x: Planet) -> float:
     # here, the revealed type is as expected :
     reveal_type(x)  # Revealed type is 'Literal[main.Planet.VENUS]'
     return 1.0
-

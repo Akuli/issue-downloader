@@ -6,4 +6,3 @@ error: type = tuple[int, int] # error: Type application has too many types (1 ex
 def foo(tp: type): ...
 
 foo(tuple[int, int])
-

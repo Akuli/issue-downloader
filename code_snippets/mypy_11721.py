@@ -14,4 +14,3 @@ tup = NTup2(a=True)  # Works in Python
 tup.b   # Python: AttributeError: 'NTup2' object has no attribute 'b'
 # but mypy thinks the `b` field exists
 reveal_type(tup.b)  # Mypy: note: Revealed type is "builtins.bool"
-

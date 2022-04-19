@@ -15,4 +15,3 @@ class ChannelView:
     def __init__(self) -> None:
         print(ServerView().view_id)
         self.userlist = object()
-

@@ -24,4 +24,3 @@ check_untyped_defs = True
 disallow_incomplete_defs = True
 disallow_any_unimported = True
 disallow_untyped_decorators = True
-

@@ -17,4 +17,3 @@ class EmployeeRecord(NamedTuple):
 
 class EmployeeRecord:
 	def is_junior(): ...
-

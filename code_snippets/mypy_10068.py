@@ -37,4 +37,3 @@ class MyCustomContext:
     ) -> None:
         if ex_value is None and len(self.data) > 100:
             raise ValueError('Too much data')
-

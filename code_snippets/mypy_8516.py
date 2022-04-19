@@ -18,4 +18,3 @@ reveal_type(Haystack().hasNeedles)
 x = Haystack().hasNeedles or True
 
 def lazy(func: Callable[[Any], T]) -> T: ...
-

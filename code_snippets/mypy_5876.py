@@ -16,4 +16,3 @@ def deco(f: T) -> T:
         print('called')
         return f(*args, **kwargs)
     return wrapper  # Maybe this should be okay
-

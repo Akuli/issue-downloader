@@ -26,4 +26,3 @@ async def returns_int() -> int:
 
 async def test():
     reveal_type(await gather(returns_dict(), returns_int()))
-

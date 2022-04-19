@@ -48,4 +48,3 @@ class Mixin(Generic[T]):
     def from_dict(cls: Type[T], d: Dict[str, str]) -> T:
         s = d[cls.KEY]
         return cls.from_str(s)
-

@@ -28,4 +28,3 @@ def test(l : typing.Sequence[str]) -> str:
 print(test([]))
 print(test(""))
 print(test(["hello", "world"]))
-

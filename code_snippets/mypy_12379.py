@@ -12,4 +12,3 @@ class B(A):
 
 arg: Union[int, str]
 B().f(arg)
-

@@ -21,4 +21,3 @@ o: object
 assert isinstance(o, (B, C))
 
 o: Union[B, C]
-

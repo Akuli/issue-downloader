@@ -19,4 +19,3 @@ if condition:
 else:
    model = get_bar_model()  # BarModel
 # model is Model
-

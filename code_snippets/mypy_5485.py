@@ -26,4 +26,3 @@ warn_return_any = True
 warn_no_return = True
 no_implicit_optional = True
 strict_optional = True
-

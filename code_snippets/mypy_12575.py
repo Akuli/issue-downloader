@@ -4,4 +4,3 @@ plugins = ["pydantic.mypy"]
 
 # test.py
 import pydantic
-

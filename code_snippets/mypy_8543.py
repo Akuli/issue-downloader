@@ -18,4 +18,3 @@ class C(NamedTuple):
 
     def __hash__(self) -> int:
         return object.__hash__(self)
-

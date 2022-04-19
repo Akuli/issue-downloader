@@ -34,4 +34,3 @@ disallow_incomplete_defs = False
 no_implicit_optional     = False
 warn_return_any          = False
 warn_unreachable         = False
-

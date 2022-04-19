@@ -27,4 +27,3 @@ def f(elem: Union[int, str, Decimal]) -> None:
         elem += 1   # new compared to the example above
 
     return None
-

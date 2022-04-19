@@ -13,4 +13,3 @@ MyUnion = strawberry.union("Entity", types=(str, int))
 
 reveal_type(MyUnion)
 reveal_type(x)
-

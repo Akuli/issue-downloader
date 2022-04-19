@@ -58,4 +58,3 @@ def callback_with_kwargs(x: str, **kwargs: Any) -> int:
 
 # Argument 1 to "applyit_with_kwargs" has incompatible type "Callable[[str, KwArg(Any)], int]"; expected "CallbackWithKwargs[str, <nothing>]"
 applyit_with_kwargs(callback_with_kwargs, 'foo')  # Error!
-

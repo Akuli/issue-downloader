@@ -22,4 +22,3 @@ isinstance(object(), C) # error: Parameterized generics cannot be used with clas
                         # error: Argument 2 to "isinstance" has incompatible type "object"; expected "Union[type, UnionType, Tuple[Union[type, UnionType, Tuple[Any, ...]], ...]]"
 
 isinstance(object(), int | list[int]) # no error (should be "error: Parameterized generics cannot be used with class or instance checks")
-

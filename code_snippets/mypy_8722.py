@@ -4,4 +4,3 @@ class MyEnum(str, enum.Enum):
 
 class MyEnum(enum.Enum[str]):
     FIRST = 'first'
-

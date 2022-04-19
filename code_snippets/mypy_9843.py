@@ -17,4 +17,3 @@ c: SomeProtocol = ProtocolInstance  # false negative
 d: SomeProtocol = ProtocolInstance()  # no error
 
 reveal_type(NotProtocolInstance.__new__)  # Revealed type is 'def (cls: Type[builtins.object]) -> Any'
-

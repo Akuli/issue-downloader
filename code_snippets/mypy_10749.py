@@ -17,4 +17,3 @@ class X:
             else:
                 value = "something_else"
         self.value = value
-

@@ -7,4 +7,3 @@ def callable_or_raise(foo: T) -> T:
 
 def check(x: object) -> bool:
     return callable(x)
-

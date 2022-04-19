@@ -17,4 +17,3 @@ class MyClass(BaseClass):
     async def gen1(self) -> AsyncGenerator[str, None]:
         yield 'tick'
 reveal_type(MyClass.gen1)
-

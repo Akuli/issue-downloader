@@ -4,4 +4,3 @@ mypy.ini
 
 def untyped():
     ...
-

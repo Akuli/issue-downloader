@@ -8,4 +8,3 @@ class Thing:
             return True
         else:
             return self.thing == that.thing  # no error, despite None == None
-

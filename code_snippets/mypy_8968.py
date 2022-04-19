@@ -15,4 +15,3 @@ class E(Enum):
     a = 'a'
     b = 'b'
     c = 'c'
-

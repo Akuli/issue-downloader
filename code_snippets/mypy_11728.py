@@ -27,4 +27,3 @@ else:
 
 @total_ordering
 class D(Generic[T]): ...
-

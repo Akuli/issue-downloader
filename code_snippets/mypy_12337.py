@@ -20,4 +20,3 @@ class D:
         return t
 
 c: C = D()  # mypy crashes here
-

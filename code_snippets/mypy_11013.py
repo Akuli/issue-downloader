@@ -37,4 +37,3 @@ class Bar:
 
 print(f"isinstance(Bar(), Foo) == {isinstance(Bar(), Foo)}")  # still True
 foo: Foo = Bar()  # <- works now?
-

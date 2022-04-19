@@ -35,4 +35,3 @@ a2 = arrow.get()
 
 diff: timedelta = a2 - a1
 print(diff.total_seconds())
-

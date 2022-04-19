@@ -5,4 +5,3 @@ def test(input):
 
 def test(input):
 	pass
-

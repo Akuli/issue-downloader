@@ -8,4 +8,3 @@ ReadableBuffer = bytes | mmap.mmap
 from mmap import mmap
 WriteableBuffer = mmap
 ReadableBuffer = bytes | WriteableBuffer
-

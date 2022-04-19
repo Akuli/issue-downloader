@@ -42,4 +42,3 @@ def ensure_correct_context(event: EventBase, context: Final[EventContext]):
     return compute_event_context(event)
 
   return context
-

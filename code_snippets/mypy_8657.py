@@ -48,4 +48,3 @@ MISSING: Literal[_MissingType.MISSING] = _MissingType.MISSING
 MissingLiteral = Literal[_MissingType.MISSING]
 
 x: Optional[MissingLiteral] = None
-

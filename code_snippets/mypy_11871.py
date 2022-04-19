@@ -16,4 +16,3 @@ class Widget:
         self.value = value
         return self
 
-

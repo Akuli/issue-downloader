@@ -10,4 +10,3 @@ class C:
         self = object.__new__(cls)
         self.x: Final = 1
         return self
-
