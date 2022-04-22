@@ -7,9 +7,9 @@ on:
   push:
     branches:
       - main
-  # Triggers the workflow every three hours starting midnight UTC.
+  # Triggers the workflow at midnight UTC.
   schedule:
-    - cron: 0 */3 * * *
+    - cron: '0 0 * * *'
   # If needed, allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
