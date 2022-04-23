@@ -25,4 +25,3 @@ reveal_type(create(P))
 reveal_type(create(Tuple[int]))
 reveal_type(create(Union[int,str]))
 reveal_type(create(Optional[int]))
-

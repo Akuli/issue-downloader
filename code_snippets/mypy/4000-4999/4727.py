@@ -21,4 +21,3 @@ class A:
 
     def world(self) -> None:
         self.x = True
-

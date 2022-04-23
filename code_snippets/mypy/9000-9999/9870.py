@@ -16,4 +16,3 @@ def f(func: Optional[Callable[[], None]] = None) -> None:
         func = _func
 
     func()
-

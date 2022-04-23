@@ -49,4 +49,3 @@ def f(obj: A) -> Union[B, C]:
     else:
         raise ValueError()
     return obj
-

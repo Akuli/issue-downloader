@@ -28,8 +28,3 @@ class HardwareMetadata(TypedDict):
     status: Literal["healthy", "degraded", "offline", "unavailable"]
     status_info: Optional[str]
     metadata: Dict[str, str]
-
-[mypy]
-ignore_missing_imports = true
-namespace_packages = true
-

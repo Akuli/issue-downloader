@@ -22,4 +22,3 @@ from test import func
 
 def func(x):
     return x
-

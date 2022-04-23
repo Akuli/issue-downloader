@@ -3,4 +3,3 @@ if hasattr(x, 'initialize'):
 
 if hasattr(x, 'initialize'):
      cast(Any, x).initialize()
-

@@ -36,4 +36,3 @@ b = 3
 foo((a, b), lambda a, b: a - b)
 
 foo((a, b), lambda a, b: a - b.bad)
-

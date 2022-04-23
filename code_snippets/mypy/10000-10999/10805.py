@@ -67,4 +67,3 @@ class A:
 a = A()
 print(a.greet('John'))  # error
 print(f'greet() called {a.greet.count} times')
-

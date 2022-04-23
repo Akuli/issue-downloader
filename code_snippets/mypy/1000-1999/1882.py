@@ -23,4 +23,3 @@ def main():
         return
     print("n =", n)
     # ... some number crunching on n
-

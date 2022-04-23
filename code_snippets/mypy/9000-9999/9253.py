@@ -3,4 +3,3 @@ def foo() -> None:
     reveal_type(iterator)
 
 iterator = map(lambda foo: list(foo), ["hello", "world"])
-

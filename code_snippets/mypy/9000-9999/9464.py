@@ -32,4 +32,3 @@ reveal_type(argmax(array, axis=None))
 # note: Revealed type is 'Any'
 reveal_type(argmax(array, axis=0))
 
-

@@ -21,11 +21,3 @@ _T = TypeVar('_T')
 class Message:
     ...
     def get(self, name: str, failobj: _T = ...) -> Union[_HeaderType, _T]: ...
-
-[mypy]
-ignore_missing_imports = True
-follow_imports = skip
-check_untyped_defs = False
-strict_equality = True
-disallow_incomplete_defs = True
-

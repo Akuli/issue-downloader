@@ -18,4 +18,3 @@ def foo(arg: Optional[str] = None) -> None:
         arg = "foo bar"
     reveal_type(arg)  # str
     print(arg.split())
-

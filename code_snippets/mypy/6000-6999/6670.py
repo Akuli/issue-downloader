@@ -44,4 +44,3 @@ def v_and(left: Union[bool, Container], right: Union[bool, Container]) -> Union[
         return False
 
     return left & right
-

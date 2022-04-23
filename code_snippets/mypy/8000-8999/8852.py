@@ -33,4 +33,3 @@ def f(param: Foo) -> None:
 f(Foo())
 f(Bar())
 f(Baz())
-

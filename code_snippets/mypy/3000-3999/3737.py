@@ -10,4 +10,3 @@ def noop_parser(x: str) -> str:
 
 def foo(value: str, parser: Callable[[str], _T] = noop_parser) -> _T:
     return parser(value)
-

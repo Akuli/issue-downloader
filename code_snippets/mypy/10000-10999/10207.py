@@ -12,4 +12,3 @@ class A:
 T = TypeVar("T", bool)
 
 T = TypeVar("T", Literal[True], Literal[False])
-

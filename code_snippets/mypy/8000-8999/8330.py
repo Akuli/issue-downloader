@@ -22,4 +22,3 @@ reveal_type(Cat('Tabby'))
 
 reveal_type(Tabby('Kitty'))
 reveal_type(Tabby('Tabby'))
-

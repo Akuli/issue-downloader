@@ -6,4 +6,3 @@ class bytes(ByteString):
 
 class bytearray(MutableSequence[int], ByteString):
     ...
-

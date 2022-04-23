@@ -27,4 +27,3 @@ def f2() -> None:
     if bar:
         return
     print(1)  # error: Statement is unreachable ✅
-

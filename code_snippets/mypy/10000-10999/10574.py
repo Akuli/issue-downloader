@@ -8,4 +8,3 @@ def bar(*args: foo.args, **kwargs: foo.kwargs) -> foo.return_type:
 
 def bar(*args: ParamSpec[foo].args, **kwargs: ParamSpec[foo].kwargs) -> None:
     return foo(*args, **kwargs)
-

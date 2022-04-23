@@ -42,4 +42,3 @@ class L(K[T]):
 	def __init__(self, t: T) -> None:
 		self.u = 1
 		super().__init__(t=t)
-

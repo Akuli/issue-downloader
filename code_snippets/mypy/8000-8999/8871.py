@@ -11,4 +11,3 @@ class A(Generic[T]):
         return "Bar"
 
 class B(A[None]): ...
-

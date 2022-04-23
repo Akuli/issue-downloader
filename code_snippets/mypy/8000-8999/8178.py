@@ -13,4 +13,3 @@ class Example(NamedTuple):
     b: int = 2
     # c: int = a*b
     d: int = does_not_exist*5
-

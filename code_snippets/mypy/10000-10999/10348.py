@@ -17,4 +17,3 @@ def split_int_string(digits: str, *at: int) -> List[int]:
     if split[-1] != len(digits):
         split.append(len(digits))
     return [int(digits[split[i - 1] : split[i]]) for i in range(1, len(split))]
-

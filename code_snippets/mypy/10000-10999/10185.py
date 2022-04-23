@@ -18,4 +18,3 @@ foo = Foo(bar='baz')
 if foo.bar is not None:
     foo.bar = None
     foo.bar.upper()
-

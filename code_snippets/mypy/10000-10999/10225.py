@@ -18,4 +18,3 @@ def def2(var: bool) -> Union[Tuple[str, str], Tuple[None, None]]:
     if var:
         return a, b
     return None, None
-

@@ -14,4 +14,3 @@ collect(['str'], list)    # Argument 2 to "collect" has incompatible type "Type[
 collect(['str'], lambda x: sorted(x))
 collect(['str'], lambda x: set(x))
 collect(['str'], lambda x: list(x))
-

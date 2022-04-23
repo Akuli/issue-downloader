@@ -11,4 +11,3 @@ some_function: FunctionForAdmin
 def some_function():
     return ...
 some_function.short_description = "What a nice little function!"
-

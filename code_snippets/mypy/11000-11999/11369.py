@@ -36,4 +36,3 @@ def foo2() -> int:
     
 assert foo() == [1]
 reveal_type(foo2())
-

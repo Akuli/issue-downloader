@@ -42,4 +42,3 @@ reveal_type(BookModel.required_field)
 reveal_type(BookModel.optional_f1)
 reveal_type(BookModel.optional_f2)
 reveal_type(BookModel.optional_f3)
-

@@ -20,4 +20,3 @@ def foo(node: Node) -> None:
             node.next = node.next.next                                           
         else:                                                                    
             node = node.next                                                     
-

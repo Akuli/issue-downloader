@@ -9,4 +9,3 @@ WorkerResult = Tuple[
 ]
 
 WorkerResult = Tuple[Optional[Result], Optional[BaseException], str]
-

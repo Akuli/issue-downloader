@@ -31,4 +31,3 @@ def go(direction: Direction) -> int:
         return 1
     elif direction == "response":
         return 2
-

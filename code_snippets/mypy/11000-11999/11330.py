@@ -21,4 +21,3 @@ def add_non_ext_class_attr(builder: IRBuilder,
     key = builder.load_str(lvalue.name)
     typ = builder.add(LoadAddress(type_object_op.type, type_object_op.src, stmt.line))
     builder.call_c(dict_set_item_op, [non_ext.anns, key, typ], stmt.line)
-

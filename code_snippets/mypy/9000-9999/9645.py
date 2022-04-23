@@ -67,4 +67,3 @@ class ExamplePlugin(Plugin):
 
 def plugin(_mypy_info: str) -> TypingType[Plugin]:
     return ExamplePlugin
-

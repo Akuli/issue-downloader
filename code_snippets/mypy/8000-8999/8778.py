@@ -35,4 +35,3 @@ Foo2Type = TypeVar("Foo2Type", bound=Foo2)
 def takes_foo2(foo: Foo2Type) -> Foo2Type:
     print(type(foo).baz())
     return foo
-

@@ -43,4 +43,3 @@ def zip(iter1: Iterable[_T1, N1],
 
 # HDL-like bit vector operations
 def add(a: BitVec[N], b: BitVec[M]) -> BitVec[max(N, M) + 1]: ...
-

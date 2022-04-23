@@ -45,4 +45,3 @@ class BlueWidget(Widget):
         if self.spec.nessness is None:
             raise ValueError("Blue widgets must be nessy")
         self.nessness = self.spec.nessness
-

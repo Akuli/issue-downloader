@@ -16,8 +16,3 @@ class MyClass:
 
 reveal_type(MyClass.prop)
 reveal_type(MyClass().prop)
-
-[mypy]
-python_version = 3.6
-#show_none_errors = False
-

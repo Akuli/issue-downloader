@@ -11,4 +11,3 @@ d = {
 d.update(foo)  # Argument 1 to "update" of "dict" has incompatible type "Foo"; expected "Mapping[str, int]"
 
 x = dict(foo)  # Revealed type is 'builtins.dict[builtins.str*, builtins.object*]'
-

@@ -10,4 +10,3 @@ for x in [1, 2]:
 if foo():
     for x in ['a', 'b']:  # Define a new variable?
         print(x)
-

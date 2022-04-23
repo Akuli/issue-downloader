@@ -13,4 +13,3 @@ def call(*, f: Callable[[], T] = None, u: U = None) -> Union[T, U, None]:
     return f() if f else u
 
 def call(*, f: None = None, u: U) -> U: ...
-

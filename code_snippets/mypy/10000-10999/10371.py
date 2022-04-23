@@ -17,4 +17,3 @@ class Dct(TypedDict):
 
 def foo() -> List[Dct]:
     return [{"x": 3}]
-

@@ -11,4 +11,3 @@ a = ( # type: ignore[call-arg]
     if baz() > 0 else 
     foo() # ignore currently needs to be here
 )  # formatters (eg. black) often put ignore here
-

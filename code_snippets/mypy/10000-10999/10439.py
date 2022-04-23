@@ -19,4 +19,3 @@ def func_2(addresses: Tuple[Addresses, ...]) -> Optional[Tuple[float, ...]]:
         else:
             return None
     return tuple(ordered_list)
-

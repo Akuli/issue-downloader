@@ -42,4 +42,3 @@ def func_2(mapping: Optional[Mapping[str, str]] = None) -> str:
         return "Included"
 
     return "Excluded"
-

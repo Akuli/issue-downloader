@@ -21,4 +21,3 @@ def bar1(num: int) -> str:
 
 def bar2(num: int) -> str:
     return 'b'
-

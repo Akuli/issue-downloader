@@ -20,4 +20,3 @@ class Unsafe(Generic[T_co]):
 
   def get_fn(self) -> Callable[[T_co], int]:
     return self.fn
-

@@ -13,4 +13,3 @@ class Foo:
 self._bar = None  # type: Bar
 
 self._bar = None  # type: self.Bar
-

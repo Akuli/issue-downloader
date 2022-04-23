@@ -17,4 +17,3 @@ class B(A):
 def bar(a: A):
     assert isinstance(a, B)
     return map(lambda _: a.foo, [])
-

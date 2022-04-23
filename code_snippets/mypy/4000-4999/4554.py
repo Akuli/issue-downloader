@@ -12,4 +12,3 @@ bar: List[str] = accept(make(list))    # Argument 1 to "accept" has incompatible
 
 import attr
 x: List[str] = attr.ib(attr.Factory(list))
-

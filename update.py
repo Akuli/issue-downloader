@@ -31,12 +31,13 @@ def find_and_save_snippets(repo, issue_num, description):
     for potential_code in description.split("```")[1::2]:
         # First line is the "python3" of ```python3
         potential_code = potential_code.split('\n', 1)[-1]
-        try:
-            ast.parse(potential_code)
-        except SyntaxError:
-            pass
-        else:
-            python_codes.append(potential_code)
+        if "[mypy]" not in potential_code:
+            try:
+                ast.parse(potential_code)
+            except SyntaxError:
+                pass
+            else:
+                python_codes.append(potential_code)
 
     if python_codes:
         file.write_text("\n".join(python_codes))

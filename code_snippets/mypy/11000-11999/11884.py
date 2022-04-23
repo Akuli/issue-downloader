@@ -20,4 +20,3 @@ foo(Bar())
 
 True
 True
-

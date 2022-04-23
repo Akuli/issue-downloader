@@ -25,4 +25,3 @@ def fn(t: QBT) -> QBT:
     if not isinstance(t, B):
         raise NotImplementedError
     return cast(QBT, t) # <- OK! on .8 its marked as redundant.
-

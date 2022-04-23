@@ -23,4 +23,3 @@ if __name__ == "__main__":
 
     main_prop(custom_config["prop"])
     main_config(custom_config)
-

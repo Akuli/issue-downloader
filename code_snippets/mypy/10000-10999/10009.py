@@ -1,6 +1,3 @@
-[mypy]
-follow_imports = skip
-
 import mod.b
 reveal_type(mod.b.UserId)
 from mod.b import UserId
@@ -15,4 +12,3 @@ class Sib:
 
 class UserId:
     pass
-

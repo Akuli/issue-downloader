@@ -4,4 +4,3 @@ class A:
 from imp import *
 
 a=A()
-

@@ -13,4 +13,3 @@ if None not in (a, b):
 # mypy passed
 if a is not None and b is not None:
     print(a + b)
-

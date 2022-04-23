@@ -35,4 +35,3 @@ def foo(a):
 
 a: str = foo(lambda x: x)
 # mypy error: Incompatible types in assignment (expression has type "int", variable has type "str")
-

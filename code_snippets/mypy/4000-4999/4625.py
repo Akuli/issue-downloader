@@ -7,4 +7,3 @@ reveal_type(structure('foo', Optional[str]))  # Revealed type is 'Any'
 
 @typing.castlike
 def structure(obj: Any, type: Type[T]) -> T:...
-

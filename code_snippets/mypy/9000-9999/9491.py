@@ -74,4 +74,3 @@ res_typed2: A[D] = f(b, c) # OK
 res_untyped = f(b, c) # mypy error
 # type-var - Value of type variable "T" of "f" cannot be "object"
 
-

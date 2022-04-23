@@ -32,4 +32,3 @@ class Circle(Shape):
 class Rectangle(Shape):
     width: float
     height: float
-

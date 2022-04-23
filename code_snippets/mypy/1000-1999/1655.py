@@ -21,4 +21,3 @@ def check_func(method):
     return method(1, 2, c=5, d=10)
 
 print(check_func(test_func))
-

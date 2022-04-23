@@ -4,4 +4,3 @@ x: Union[int, str] = 0
 x: Union[int, str]
 x = 0
 # type of x is int here!
-

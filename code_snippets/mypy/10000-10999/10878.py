@@ -43,4 +43,3 @@ def g(x: B, func: Callable[[D], bool]) -> None:...
 def g(x: Union[A, B], func: Union[Callable[[C], bool], Callable[[D], bool]]) -> None:
     obj = f(x)
     func(obj) # error: Argument 1 has incompatible type "Union[C, D]"; expected "C"
-

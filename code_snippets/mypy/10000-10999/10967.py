@@ -21,4 +21,3 @@ from my_app.my_pkg import my_module
 from my_app import my_pkg
 
 print(my_pkg.my_var)
-

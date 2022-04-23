@@ -36,4 +36,3 @@ class Bar(Generic[T]): ...
 class FooChild(Foo[Bar[T]]):
     def __init__(self): # Removed the argument here
         Foo.__init__(self)
-

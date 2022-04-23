@@ -4,4 +4,3 @@ class Test:
 __all__ = []
 
 class Test: ...
-

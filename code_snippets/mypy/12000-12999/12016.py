@@ -24,4 +24,3 @@ reveal_type(a)  # note: Revealed type is "Any"
 print(a)
 bar(a)
 a + "asdf"
-

@@ -53,4 +53,3 @@ for f1, args1 in calls_same_signatures: # type checks
 f2: Callable[..., int]
 for f2, args2 in calls_different_signatures:  # mypy says: Incompatible types in assignment (expression has type "function", variable has type "Callable[..., int]")
     f2(*args2)
-

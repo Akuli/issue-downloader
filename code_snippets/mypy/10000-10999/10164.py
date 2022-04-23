@@ -33,4 +33,3 @@ email = flatmap(flatmap(maybe_get_user(), lambda user: user.email), sanitize_ema
 # 3)
 user = maybe_get_user()
 email = sanitize_email_address(user.email) if user and user.email else None
-

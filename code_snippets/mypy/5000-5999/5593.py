@@ -25,12 +25,3 @@ print_c(foo(C))
 print_d(foo(D))
 reveal_type(foo(C))
 reveal_type(foo(D))
-
-[mypy]
-ignore_missing_imports = True
-strict_optional = True
-warn_unused_ignores = True
-warn_redundant_casts = True
-warn_unused_configs = True
-check_untyped_defs = True
-

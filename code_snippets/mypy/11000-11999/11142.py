@@ -36,4 +36,3 @@ reveal_type(getattr(s, a))  # Revealed type is "builtins.int"
 ab: Literal['a', 'b']
 reveal_type(getattr(s, ab))  # error: "Some" has no attribute "b"
 reveal_type(getattr(s, ab, None))  # Revealed type is "builtins.int | None"
-

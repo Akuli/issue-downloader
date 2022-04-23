@@ -15,4 +15,3 @@ def test_mutablemapping2(obj: Mapping[Any, Any]) -> MutableMapping[Any, Any]:
         return obj
     else:
         return dict(obj)
-

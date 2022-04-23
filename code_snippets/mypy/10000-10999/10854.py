@@ -26,4 +26,3 @@ def generate2(n: int, constructor: Constructor[_T] = str) -> List[_T]:
 # error: Need type annotation for "res2" (hint: "res2: List[<type>] = ...")
 res2 = generate2(5, float)  # res2 should be of type List[float]
 assert res2 == [0.0, 1.0, 2.0, 3.0, 4.0]
-

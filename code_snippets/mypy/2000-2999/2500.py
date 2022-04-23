@@ -14,4 +14,3 @@ class A:
 
     def f(self) -> None:
         self.a = ''   # The current message is probably just fine, as the context is clear
-

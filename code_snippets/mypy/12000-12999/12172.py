@@ -21,4 +21,3 @@ print(s)
 
 [flake8]
 builtins = _
-

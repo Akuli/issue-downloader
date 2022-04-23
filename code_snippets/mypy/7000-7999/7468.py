@@ -44,4 +44,3 @@ if TYPE_CHECKING:  # type declarations
 isinstance(Left(1), Left)  #looks similar to 'isinstance([1,2,3], List)'
 
 isinstance(Left(1), Either[L, None])  # looks similar to 'isinstance([1,2,3], List[int])'
-

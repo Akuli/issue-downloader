@@ -15,4 +15,3 @@ def print_person(original_person: Person) -> None:
     phone = getattr(person, 'phoneNumber', None)
     if phone:
         print(f'    Phone: {phone}')
-

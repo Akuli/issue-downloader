@@ -67,8 +67,3 @@ class SubSub(Sub):
 
 class Last(Sub):
     class_var = "should be OK"
-
-[mypy]
-ignore_missing_imports = True
-warn_return_any = False
-

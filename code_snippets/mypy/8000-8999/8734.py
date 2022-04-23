@@ -10,4 +10,3 @@ def foo() -> List[int]:
     if 2 != 2:
         listings = [1]
     return listings
-

@@ -54,4 +54,3 @@ def foo(a: A):
 
 def bar(arg: Union[str, B]):
     pass
-

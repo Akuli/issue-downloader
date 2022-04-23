@@ -97,8 +97,3 @@ def test() -> None:
     check_to_str_bounds(MyContainerStr("a", "b").get_bounds())
     # As expected, if uncommented, fails.
     # check_to_int_bounds(MyContainerStr(1.0, 1.0).get_bounds())
-
-[mypy]
-warn_unused_ignores = True
-mypy_path = distropmc
-disallow_any_generics = True

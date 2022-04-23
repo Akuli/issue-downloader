@@ -12,4 +12,3 @@ x = 0
 # ok for mypy, but Python error: NameError: name 'z' is not defined
 [z := z + y for y in range(2)]
 
-

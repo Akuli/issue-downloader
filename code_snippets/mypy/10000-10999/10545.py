@@ -7,4 +7,3 @@ def foo() -> str: ...
 from a import *
 
 def foo() -> int: ...  # type: ignore
-

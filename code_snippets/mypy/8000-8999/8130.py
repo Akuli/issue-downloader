@@ -19,4 +19,3 @@ class Outer(Base):
 class Outer:
   field: Outer.Inner
   class Inner: pass
-

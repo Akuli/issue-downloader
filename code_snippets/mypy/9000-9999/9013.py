@@ -21,4 +21,3 @@ def bar(x: str) -> None:
     pass
 
 bar(foo)
-

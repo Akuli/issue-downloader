@@ -68,4 +68,3 @@ class Bar(Foo):
             return [3, 4, 5]
         else:
             raise TypeError(...)
-

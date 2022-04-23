@@ -19,4 +19,3 @@ class Outer:
     def foo_method(self) -> None:
         class FooInner(self.foo_class):
             pass
-

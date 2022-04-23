@@ -18,12 +18,3 @@ if __name__ == '__main__':
     print([p.__name__ for p in a.__class__.__mro__])
 
 ['Array', 'Item', 'MutableSequence', 'Sequence', 'Reversible', 'Collection', 'Sized', 'Iterable', 'Container', 'list', 'object']
-
-[mypy]
-pretty = True
-show_error_codes = True
-show_error_context = True
-show_traceback = True
-ignore_missing_imports = True
-warn_redundant_casts = True
-warn_unused_ignores = True

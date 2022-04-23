@@ -18,4 +18,3 @@ class B(A):
 
 
 B().foo()  # I would like a warning that this is unsupported
-

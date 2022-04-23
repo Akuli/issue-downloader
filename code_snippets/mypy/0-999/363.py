@@ -5,4 +5,3 @@ def __lt__(self, x: int) -> bool:
 
 def f() -> bool:
     return NotImplemented
-

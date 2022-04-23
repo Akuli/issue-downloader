@@ -6,4 +6,3 @@ class Service:
         return self.another_service.another_method_call()
 
 self.another_service: Service = Service() 
-

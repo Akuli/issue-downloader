@@ -13,4 +13,3 @@ def hook_gen(name: str):
 class MyPlugin(Plugin):
     def get_attribute_hook(self, fullname: str) -> ...:
         return hook_gen(fullname)
-

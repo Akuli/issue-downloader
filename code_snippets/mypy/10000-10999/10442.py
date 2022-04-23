@@ -37,12 +37,3 @@ def iter_yield_from() -> Iterator[list[Any]]:
         l_union,
         l_str,
     )  # union on first or second position passes 🙃
-
-# setup.cfg
-[mypy]
-python_version = 3.8
-strict = true
-warn_unreachable = true
-implicit_reexport = true
-ignore_missing_imports = true
-

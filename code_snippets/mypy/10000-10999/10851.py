@@ -44,4 +44,3 @@ else:
     from typing_extensions import Protocol, runtime_checkable
 
 __all__ = ["Protocol", "runtime_checkable"]
-

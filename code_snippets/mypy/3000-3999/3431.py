@@ -14,4 +14,3 @@ if message is None:
 
 assert message is not None # ADDED, but outside the if, now.
 rendered_content = render_markdown(message, content, realm=message.get_realm())
-

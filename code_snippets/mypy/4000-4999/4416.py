@@ -22,4 +22,3 @@ def f():
     x = 1
 
 reveal_type(x)  # Union[Any, None]
-

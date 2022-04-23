@@ -23,4 +23,3 @@ README.md
 
 __init__.py
 py.typed
-

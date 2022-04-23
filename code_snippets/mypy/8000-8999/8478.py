@@ -61,4 +61,3 @@ def test2() -> None:
 
 
 test2()
-

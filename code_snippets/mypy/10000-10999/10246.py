@@ -3,4 +3,3 @@ class X:
 
 class X:
     y: descriptor[int] = descriptor()
-

@@ -17,4 +17,3 @@ class ConcreteFoo(Foo):
     ...
 
 ConcreteFoo()  # allowed
-

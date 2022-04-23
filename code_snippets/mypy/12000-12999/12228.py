@@ -33,4 +33,3 @@ if isinstance(foo_union, SupportsFunc):
 else:
     reveal_type(foo_union)  # N: Revealed type is 'Union[__main__.FooOverload, __main__.Foo]'
 
-

@@ -31,4 +31,3 @@ if isinstance(forward_item, Instance):
         forward_item = self.expr_checker.analyze_external_member_access('__call__',
                                                                         forward_item,
                                                                         context)
-

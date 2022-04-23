@@ -63,4 +63,3 @@ class Collection(Generic[T]):
         Apply the this Collection to a Transform and produce a new 
         output Collection
         """
-

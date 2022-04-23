@@ -28,4 +28,3 @@ class MyDataclass(MyDataclassBase):
 
 
 mydc = MyDataclass(my_field=None, extra_field=0)
-

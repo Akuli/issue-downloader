@@ -14,4 +14,3 @@ MyType = TypedDict({
         'baz': int,
     })
 })
-

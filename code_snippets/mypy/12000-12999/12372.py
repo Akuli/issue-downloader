@@ -12,4 +12,3 @@ class ChoiceField(Field):
 
 class ModelChoiceField(ChoiceField):
     def to_python(self, data: Optional[Any]) -> Optional[Model]: ...  # type: ignore[override]
-

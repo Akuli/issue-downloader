@@ -13,4 +13,3 @@ def f1(*args) -> None:
 
 def f2(*args):
     return f1(*args)
-

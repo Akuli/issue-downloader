@@ -25,4 +25,3 @@ def func(x: Union[A, B]) -> bool:
         return x.permissions_for(x.me)
     else:
         return x.permissions_for(x.me)
-

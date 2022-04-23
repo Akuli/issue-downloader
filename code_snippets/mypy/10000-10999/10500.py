@@ -15,4 +15,3 @@ def unwrap(val: T | None) -> T:
 x: list[str | None]
 sorted(x, key=lambda x: unwrap(x).upper())
 #                       <nothing> has no attribute "upper"  [attr-defined]
-

@@ -7,4 +7,3 @@ reveal_type(y) # E: Revealed type is 'S`-1'
 
 tokenprog, pseudoprog, single3prog, double3prog = map(
     re.compile, (Token, PseudoToken, Single3, Double3))
-

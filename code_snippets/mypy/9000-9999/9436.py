@@ -30,4 +30,3 @@ reveal_type(scalar + scalar)
 # note: Revealed type is 'op.ndarray*[op.bool_]'
 reveal_type(array + scalar)
 
-

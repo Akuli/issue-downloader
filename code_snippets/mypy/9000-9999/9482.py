@@ -117,4 +117,3 @@ c: IndexType[bool] = Index([True])
 # Should complain
 d: IndexType[datetime] = Index(["a"])
 e: IndexType[bool] = Index(["a"])
-

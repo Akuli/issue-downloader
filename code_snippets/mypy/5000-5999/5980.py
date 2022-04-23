@@ -54,4 +54,3 @@ def f(pair: Pair[int, float]) -> float:
 
 pair: Pair[int, float] = (1, 1.5)
 assert f(pair) == 2.5
-

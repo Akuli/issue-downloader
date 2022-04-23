@@ -12,6 +12,3 @@ class E(Enum):
         return (key.name for key in cls if key.value is not None)
 
 print(list(E.keys()))
-
-[mypy]
-follow_imports=skip

@@ -13,4 +13,3 @@ strict_equality=True
 no_implicit_optional=True
 disallow_untyped_defs=True
 disallow_any_generics=True
-

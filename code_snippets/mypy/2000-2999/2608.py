@@ -23,4 +23,3 @@ def func(arg=None):
         return arg  # Incompatible return value type (got "Optional[Dict[str, str]]", expected Dict[str, str])
 
     return inner()
-

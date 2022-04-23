@@ -24,4 +24,3 @@ def b(
           if list_comprehension_argument]
   ):
   pass
-

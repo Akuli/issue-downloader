@@ -20,4 +20,3 @@ __all__ = ["story"]
 
 def story() -> gym.Bro:
     return gym.Bro()
-

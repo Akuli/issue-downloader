@@ -100,4 +100,3 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # XXX typechecks but fails at runtime with
 # TypeError: an integer is required (got type function)
 sock.connect(('blah', port))
-

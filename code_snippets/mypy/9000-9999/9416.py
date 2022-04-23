@@ -33,4 +33,3 @@ f.crashing_property  # Triggers "no overload variant"
 @overload
 def __get__(self, instance: "Field", owner: Type["Field"]):
     ...
-
