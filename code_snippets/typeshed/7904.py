@@ -9,5 +9,5 @@ def foo(r: Recursive) -> None:
         r.casefold()
 
 foo("")
-foo(list[""])
-foo(list[list[""], ""])
+foo(list(""))
+foo(list(list(""), ""))
